@@ -35,4 +35,4 @@ Here's a [good read](https://www.zachleat.com/web/comprehensive-webfonts/) on al
 - Ensure you're only loading the weights, styles and languages you need
 - Use [`font-display`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display) properties to help your visually complete score
 - Bonus: Use a JS library like [Web Font Loader](https://github.com/typekit/webfontloader) to make font-loading non-render blocking
-- Bonus: Use [https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369]
+- Bonus: Use [variable fonts](https://medium.com/variable-fonts/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369)
