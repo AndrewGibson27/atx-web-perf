@@ -1,6 +1,19 @@
 # Let's make a slow website fast!
 Repo for the ATX Web Performance Meetup where we'll attempt to make a slow website fast on the fly. Here's the [event page](https://www.meetup.com/austin-web-performance/events/266519185/).
 
+## How to run the project
+This assumes you have Python installed.
+
+`python -m SimpleHTTPServer 3000`
+
+Go to `http://localhost:3000/part-1`
+
+
+## Methodology
+- Lighthouse tested via incognito Chrome
+- Simulated 4G slowdown
+- Mobile
+
 
 ## Things to cover
 * [ ] `srcset`
