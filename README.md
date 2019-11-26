@@ -30,7 +30,7 @@ Go to `http://localhost:3000/part-1`
 ## Optimizing fonts
 Here's a [good read](https://www.zachleat.com/web/comprehensive-webfonts/) on all the different font-loading strategies. For, we'll use Google Fonts as it's quite popular and easy to set up.
 
-### Optimization steps
+### Steps
 - Ensure you're using WOFF2 (or least WOFF)
 - Ensure you're only loading the weights, styles and languages you need
 - Use [`font-display`](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display) properties to help your visually complete score
