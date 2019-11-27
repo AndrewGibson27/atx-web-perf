@@ -19,17 +19,16 @@ Go to `http://localhost:3000/part-1`
 * [x] `srcset`
 * [x] Image lazy loading
 * [x] Fallback UIs for images, etc.
-* [ ] Time to first byte (sleep the server)
-* [ ] Put JS in the page head
-* [ ] Massive unminified CSS
-* [ ] Too many DOM nodes
-* [ ] `async` or `defer`
-* [ ] Enable compression (gzip/brotli)
+* [ ] Time to first byte (TT)
+* [ ] Put JS in the page head (AG)
+* [ ] Massive unminified CSS like Normalize (TT)
+* [ ] Potentially inline CSS and load rest with `IntersectionObserver` (TT)
+* [x] Too many DOM nodes
+* [ ] `async` or `defer` (AG)
+* [ ] Enable compression (TT)
 * [x] Font loading
-* [ ] Minification and concatenation
-* [ ] Avoiding full libraries like lodash/moment/etc.
-* [ ] Poor performing animation?
-* [ ] Inline critical CSS?
+* [ ] Minification and concatenation (AG)
+* [ ] Avoiding full libraries like lodash/moment/etc. (AG)
 
 
 ## Optimizing fonts
