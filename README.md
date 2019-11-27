@@ -52,3 +52,5 @@ We'll start with a few large stock photos from this [website](https://picsum.pho
 - Provide a same-aspect-ratio placeholder to prevent page reflow (see [padding-bottom hack](https://www.smashingmagazine.com/2013/09/responsive-images-performance-problem-case-study/))
 - Lazy load them, maybe with [this library](https://github.com/aFarkas/lazysizes)
 - Bonus: Use WebP format
+
+https://www.dropbox.com/s/21vof23jlwf0swc/performance-checklist-1.2.pdf?dl=0
