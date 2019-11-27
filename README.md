@@ -25,6 +25,7 @@ Go to `http://localhost:3000/part-1`
 * [ ] Potentially inline CSS and load rest with `IntersectionObserver` (TT)
 * [x] Too many DOM nodes
 * [ ] `async` or `defer` (AG)
+* [ ] YouTube videos (AG)
 * [ ] Enable compression (TT)
 * [x] Font loading
 * [ ] Minification and concatenation (AG)
