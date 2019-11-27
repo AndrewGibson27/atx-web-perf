@@ -19,7 +19,12 @@ Go to `http://localhost:3000/part-1`
 * [x] `srcset`
 * [x] Image lazy loading
 * [x] Fallback UIs for images, etc.
+* [ ] Time to first byte (sleep the server)
+* [ ] Put JS in the page head
+* [ ] Massive unminified CSS
+* [ ] Too many DOM nodes
 * [ ] `async` or `defer`
+* [ ] Enable compression (gzip/brotli)
 * [x] Font loading
 * [ ] Minification and concatenation
 * [ ] Avoiding full libraries like lodash/moment/etc.
