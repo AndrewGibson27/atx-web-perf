@@ -12,6 +12,6 @@ app.use(function(req, res, next) {
 
 app.use(express.static('public'));
 
-const listener = app.listen('3000', function() {
+app.listen('3000', function() {
 	console.log('Your app is listening on port 3000 ');
 });
