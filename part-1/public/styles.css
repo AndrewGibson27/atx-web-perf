@@ -1,25 +1,50 @@
-html {
-  max-width: 1000px;
-  margin: 0 auto;
+html,
+body {
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+header {
+	border-bottom: 1px solid black;
+	margin-bottom: 60px;
+	display: flex;
+	padding: 0 20px;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
 }
 
 .font-baskerville {
-  font-family: 'Baskervville', serif;
+	font-family: 'Baskervville', serif;
+}
+
+h1.font-baskerville {
+	margin: 0;
+}
+h2.font-baskerville {
+	margin: 0;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 16px;
 }
 
 .font-roboto {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 figure {
-  margin: 50px 0;
+	margin: 50px 0;
 }
 figure:first-of-type {
-  margin-top: 0;
+	margin-top: 0;
 }
 figure img {
-  display: block;
-  width: 100%;
+	display: block;
+	width: 100%;
+}
+
+.main {
+	margin: 0 20px;
 }
 
 /*figure {

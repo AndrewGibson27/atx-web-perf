@@ -42,6 +42,7 @@ Navigate to http://localhost:3000/ in your web browser.
 - Optimize database queries, long tasks, etc.
 - Caching
 - CDN
+- Server Hardware
 
 ## Optimizing fonts
 
