@@ -10,6 +10,7 @@
 	"author": "Andrew Gibson & Torre Taylor",
 	"license": "ISC",
 	"dependencies": {
+		"date-fns": "^2.8.1",
 		"express": "^4.17.1",
 		"express-static-gzip": "^2.0.5",
 		"shrink-ray-current": "^4.1.2"

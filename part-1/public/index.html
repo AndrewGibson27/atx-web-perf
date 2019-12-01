@@ -23,12 +23,12 @@
 		<!-- <link href="./styles.min.css" rel="stylesheet" type="text/css" /> -->
 
 		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>-->
+		<!--<script async src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
-
-		<!-- NEED MORE JS HERE -->
 	</head>
 
 	<body>
+		<time id="time-attach"></time>
 		<header>
 			<div>
 				<h1 class="font-baskerville">Let's make a slow site fast</h1>
@@ -274,4 +274,15 @@
 	</body>
 
 	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>-->
+	
+	<!--<script type="module">
+	import format from './date-fns/esm/format/index.js';
+	
+	const attachEl = document.getElementById('time-attach');
+
+	const now = new Date();
+	const formattedNow = format(now, 'MMMM d, yyyy');
+
+	attachEl.textContent = `Today's date is: ${formattedNow}`;
+	</script>-->
 </html>
