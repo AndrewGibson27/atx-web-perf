@@ -20,17 +20,17 @@ Navigate to http://localhost:3000/ in your web browser.
 - [x] `srcset`
 - [x] Image lazy loading
 - [x] Fallback UIs for images, etc.
-- [ ] Time to first byte (TT)
-- [ ] Put JS in the page head (AG)
-- [ ] Massive unminified CSS like Normalize (TT)
+- [x] Time to first byte
+- [x] Put JS in the page head
+- [x] Massive unminified CSS like Normalize
 - [ ] Potentially inline CSS and load rest with `IntersectionObserver` (TT)
 - [x] Too many DOM nodes
-- [ ] `async` or `defer` (AG)
-- [ ] YouTube videos (AG)
-- [ ] Enable compression (TT)
+- [x] `async` or `defer`
+- [x] YouTube video
+- [x] Enable compression
 - [x] Font loading
-- [ ] Minification and concatenation (AG)
-- [ ] Avoiding full libraries like lodash/moment/etc. (AG)
+- [x] Minification and concatenation
+- [x] Avoiding full libraries like lodash/moment/etc.
 
 ## Reducing Server Response Times (TTFB)
 

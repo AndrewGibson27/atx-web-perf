@@ -55,8 +55,15 @@ time {
 	text-align: center;
 }
 
+iframe {
+	display: block;
+	max-width: 600px;
+	width: 100%;
+}
+
 footer {
 	height: 300px;
+	margin-top: 100px;
 	background: rgb(0, 0, 0, 0.9);
 }
 /*figure {
