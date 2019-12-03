@@ -11,7 +11,6 @@ app.use(function(req, res, next) {
 });
 
 app.use(express.static('public'));
-app.use(express.static('node_modules'));
 
 app.listen('3000', function() {
 	console.log('Your app is listening on port 3000 ');
