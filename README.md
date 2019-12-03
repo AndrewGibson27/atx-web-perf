@@ -4,10 +4,10 @@ Repo for the ATX Web Performance Meetup where we'll attempt to make a slow websi
 
 ## How to run the project
 
-Navigate to part-1 directory from the command line.
-Run`npm install` to install the Node.js dependencies
-Run `node server.js` to start the server.
-Navigate to http://localhost:3000/ in your web browser.
+- Navigate to part-1 directory from the command line.
+- Run`npm install` to install the Node.js dependencies
+- Run `node server.js` to start the server.
+- Navigate to http://localhost:3000/ in your web browser.
 
 ## Methodology
 
@@ -23,7 +23,6 @@ Navigate to http://localhost:3000/ in your web browser.
 - [x] Time to first byte
 - [x] Put JS in the page head
 - [x] Massive unminified CSS like Normalize
-- [ ] Potentially inline CSS and load rest with `IntersectionObserver` (TT)
 - [x] Too many DOM nodes
 - [x] `async` or `defer`
 - [x] YouTube video
@@ -68,4 +67,22 @@ We'll start with a few large stock photos from this [website](https://picsum.pho
 - Lazy load them, maybe with [this library](https://github.com/aFarkas/lazysizes)
 - Bonus: Use WebP format
 
-https://www.dropbox.com/s/21vof23jlwf0swc/performance-checklist-1.2.pdf?dl=0
+### Code snippets
+
+Here's an example of using the padding-bottom hack to create a placeholder to prevent reflow.
+
+```css
+figure {
+  background-color: #DCDCDC;
+  margin: 50px 0;
+  position: relative;
+  padding-top: 66.67%;
+}
+figure img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+```
