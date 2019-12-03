@@ -22,13 +22,12 @@
 		<link href="./styles.css" rel="stylesheet" type="text/css" />
 		<!-- <link href="./styles.min.css" rel="stylesheet" type="text/css" /> -->
 
-		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>-->
-		<!--<script async src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+		<!--<script async src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.js"></script>
 	</head>
 
 	<body>
-		<time id="time-attach"></time>
+    <div id="lodash-attach"></div>
     
     <header>
 			<div>
@@ -5282,16 +5281,25 @@
 		<footer></footer>
 	</body>
 
-	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>-->
-	
-	<!--<script type="module">
-	import format from './date-fns/esm/format/index.js';
-	
-	const attachEl = document.getElementById('time-attach');
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>-->
+  <!-- <script src="./lodash.custom.min.js"></script> -->
 
-	const now = new Date();
-	const formattedNow = format(now, 'MMMM d, yyyy');
+  <!-- <script>
+    const attachEl = document.getElementById('lodash-attach');
+    const arr = [];
+    let str = '';
 
-	attachEl.textContent = `Today's date is: ${formattedNow}`;
-	</script>-->
+    for (let i = 0; i < 100; i++) {
+      arr.push(Math.round(Math.random() * 100));
+    }
+
+    const sorted = arr.sort();
+    const unique = _.sortedUniq(sorted);
+
+    unique.forEach(item => {
+      str += ` ${item}`;
+    });
+
+    attachEl.innerText = str;
+  </script> -->
 </html>
