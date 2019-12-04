@@ -5,7 +5,7 @@ const shrinkRay = require('shrink-ray-current');
 // Order matters for the app.use statements
 // app.use(shrinkRay()); // Comment this line to enable BR encoding
 
-// Comment this code block to enable delay in server response
+// Comment this code block to disable delay in server response
 app.use(function(req, res, next) {
 	setTimeout(next, 2000);
 });
