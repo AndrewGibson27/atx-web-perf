@@ -3009,10 +3009,10 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #dcdcdc;
 	display: flex;
-	height: 70px;
 	justify-content: space-between;
 	margin-bottom: 30px;
 	padding: 10px 20px;
+	height: auto;
 }
 
 .font-baskerville {
