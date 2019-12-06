@@ -19,15 +19,13 @@ Repo for the ATX Web Performance Meetup where we'll attempt to make a slow websi
 
 - [x] `srcset`
 - [x] Image lazy loading
-- [x] Fallback UIs for images, etc.
-- [x] Time to first byte
-- [x] Put JS in the page head
-- [x] Massive unminified CSS like Normalize
-- [x] Too many DOM nodes
-- [x] `async` or `defer`
-- [x] YouTube video
-- [x] Enable compression
-- [x] Font loading
+- [x] Fallback UIs for images (same-aspect-ratio gray boxes)
+- [x] Improving time to first byte
+- [x] Moving JS out of the page `<head>`
+- [x] Removing excess DOM nodes
+- [x] `async` or `defer` on scripts
+- [x] Lazy loading iframes with `loading="lazy"`
+- [x] Using `font-display`
 - [x] Minification and concatenation
 - [x] Avoiding full libraries like lodash/moment/etc.
 
@@ -42,6 +40,24 @@ Repo for the ATX Web Performance Meetup where we'll attempt to make a slow websi
 - Caching
 - CDN
 - Server Hardware
+
+## Optimizing JavaScript
+
+### Steps
+
+- Code splitting
+- Move scripts to bottom of page, or use `async`/`defer`
+- Use performance tab of Chrome DevTools to optimize long tasks
+- Make API calls lazily using `IntersectionObserver`
+- Use ES6 modules to take advantage of tree-shaking
+- Avoid using entire utility libraries like Moment or Lodash (just pull out the functions you need)
+- Minification and concatenation
+
+## Optimizing CSS
+
+- Inline critical CSS
+- Use code splitting to only load the styles needed for the current route
+- Minification and concatenation
 
 ## Optimizing fonts
 
@@ -86,3 +102,8 @@ figure img {
   height: 100%;
 }
 ```
+
+## Miscellaneous
+
+- Use `loading="lazy"` on things like images, videos and `<iframe>s` (check browser support tables)
+- Take advantage of preconnecting, preloading and prefetching
